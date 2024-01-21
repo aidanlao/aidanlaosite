@@ -83,6 +83,8 @@ const Homepage = () => {
             <div className="navigation">
               <p>Software Developer studying @ McMaster. Professional Pianist</p>
               <Navbar/>
+              <p style={{paddingTop: "3em"}}>  website by aidan lao  </p>
+              <p>laoa6@mcmaster.ca</p>
             </div>
             <div id="canvas-container">
                 <Canvas >

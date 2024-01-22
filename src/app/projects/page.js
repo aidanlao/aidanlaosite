@@ -1,6 +1,9 @@
 import Navbar from "@/components/Navbar";
 import { Grenze } from "next/font/google";
 import Link from "next/link";
+export const metadata = {
+    title: 'Aidan Lao',
+  }
 export default function Page() {
     return (
         <>

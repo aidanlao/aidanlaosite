@@ -1,6 +1,9 @@
 
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
+export const metadata = {
+    title: 'Aidan Lao',
+  }
 export default function Page() {
     return (
         <div className="homepage">

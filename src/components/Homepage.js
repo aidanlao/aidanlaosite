@@ -29,12 +29,12 @@ const Homepage = () => {
         let cw = true;
         let down = true;
         useFrame((delta) => {
-          modelref.current.rotation.y += 0.005;
+          modelref.current.rotation.y += 0.01;
         })
         const gltf = useLoader(GLTFLoader, link);
         return (
           <>
-            <primitive position-y={-0.4}scale-x={0.5} scale-y={0.5} scale-z={0.5} rotation-x={0.3} rotation-y={0} ref={modelref} object={gltf.scene} scale={1} />
+            <primitive position-y={-0.4}scale-x={0.06} scale-y={0.06} scale-z={0.06} rotation-x={0.3} rotation-y={0} ref={modelref} object={gltf.scene} scale={1} />
           </>
         );
       };
@@ -92,8 +92,7 @@ const Homepage = () => {
                
                 <Environment background={false} preset="sunset" />
             
-                <Model link="./mac.glb"/>
-                <Piano link="./piano.glb"/>
+                <Model link="./laptop.glb"/>
                 </Canvas>
             </div>
         </div>

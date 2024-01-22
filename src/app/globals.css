@@ -43,7 +43,7 @@ background: radial-gradient(circle, rgba(33,33,95,1) 0%, rgba(20,20,24,1) 100%);
   left: 39%; /* position the left edge of the element at the middle of the parent */
 
   transform: translate(-50%, -50%);                           
-  filter:blur(100px); 
+  filter:blur(80px); 
  
   animation: rotate 3s alternate infinite;
  

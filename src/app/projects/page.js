@@ -35,7 +35,7 @@ export default function Page() {
                             <li>Tests the properties of binary relations</li>
                             <li>Randomly generates relations and provides feedback</li>
                         </ul>
-                        <Link className="link" href="https://replit.com/@AidanLao2004/Autonomous-Vehicle-Simulation">Link</Link>
+                        <Link className="link" href="https://replit.com/@AidanLao2004/Relations-Tester#script.js">Link</Link>
                     </div>
                     
                     

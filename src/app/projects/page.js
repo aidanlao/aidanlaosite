@@ -8,7 +8,7 @@ export default function Page() {
     return (
         <>
             <div className="homepage projects">
-                <Navbar></Navbar>
+                <Navbar number={1}></Navbar>
                 <div className="projectList">
                     <div className="project">
                         <h1>CareLink</h1>

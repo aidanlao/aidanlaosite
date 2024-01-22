@@ -4,7 +4,7 @@
 }
 * {
   margin: 0;
-  color: rgba(255, 255, 255, 0.8);
+  color: #dee5f8cf;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
 }
@@ -110,7 +110,7 @@ background: radial-gradient(circle, rgba(33,33,95,1) 0%, rgba(20,20,24,1) 100%);
   gap: 1em;
 }
 .navbar > a {
-  border: 1px solid white;
+  border: 1px solid #dee5f8;
   border-radius: 1em;
   padding: 0.5em 2em;
   transition: 0.5s;
@@ -195,7 +195,7 @@ background: radial-gradient(circle, rgba(33,33,95,1) 0%, rgba(20,20,24,1) 100%);
   max-width: 20em;
   background-color: rgba(30, 25, 66, 0.249);
    border-radius: 1em;
-  color: white;
+  color: #dee5f8;
   border: 7px solid transparent;
   box-sizing: border-box;
   padding: 2em;
@@ -261,11 +261,18 @@ background: radial-gradient(circle, rgba(33,33,95,1) 0%, rgba(20,20,24,1) 100%);
 
 
 .link {
-  border: 1px solid white;
+  border: 1px solid #dee5f8;
   border-radius: 1em;
   padding: 0.5em 2em;
   transition: 0.5s;
-  color: white;
+  color: #dee5f8;
+  display: inline-block;
+}
+.active {
+  opacity:  0.5;
+  pointer-events: none;
+  cursor: default;
+  background-color: #646c8d6e;
 }
 .link:hover {
   transform: scale(1.1);

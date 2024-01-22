@@ -7,7 +7,7 @@ export const metadata = {
 export default function Page() {
     return (
         <div className="homepage">
-            <Navbar></Navbar>
+            <Navbar number={2}></Navbar>
             <div className="spinning"></div>
             <div id="about" className="about">
                 <h1>About me</h1>

@@ -88,7 +88,7 @@ const Homepage = () => {
         </div>
       </div>
       <div className="navigation">
-        <p>Software Developer studying @ McMaster. Professional Pianist</p>
+        <p>Software Developer studying at McMaster University. Full-stack and AI focused.</p>
         <Navbar />
         <p style={{ paddingTop: "3em" }}>  website by aidan lao  </p>
         <p>laoa6@mcmaster.ca</p>
